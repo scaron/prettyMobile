@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>prettyMobile</title>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+		<meta name="apple-mobile-web-app-capable" content="no" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="white" />
+		
+		<link rel="stylesheet" href="css/prettyMobile.css" type="text/css" media="screen" charset="utf-8" />
+		<link rel="stylesheet" href="css/native-iphone.css" type="text/css" media="screen" charset="utf-8" />
+
+		<script src="js/sizzle.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/prettyMobile.js" type="text/javascript" charset="utf-8"></script>
+	</head>  
+	<body onload="setTimeout(function() { window.scrollTo(0, 1); }, 100);" onorientationchange="updateOrientation();">
+		<div id="pm_container">
+			<div id="pm_header">
+				<h1 class="pm_page-title">prettyMobile</h1>
+				<p class="pm_back"><a href="#" rel="back"><strong>Back</strong></a></p>
+			</div>
+			<div class="pm_in-viewport">
+				
+			</div>
+			<div class="pm_out-of-viewport"></div>
+			<div id="pm_loader"></div>
+		</div>
+	</body>
+</html>
